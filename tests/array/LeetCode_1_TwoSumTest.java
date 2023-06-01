@@ -1,12 +1,9 @@
+package array;
+
 import com.google.common.truth.Truth;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import javax.swing.plaf.TreeUI;
-
-import static org.junit.Assert.*;
 
 public class LeetCode_1_TwoSumTest {
     LeetCode_1_TwoSum sut;

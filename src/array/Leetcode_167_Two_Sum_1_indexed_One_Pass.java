@@ -1,3 +1,5 @@
+package array;
+
 import java.util.HashMap;
 
 public class Leetcode_167_Two_Sum_1_indexed_One_Pass {

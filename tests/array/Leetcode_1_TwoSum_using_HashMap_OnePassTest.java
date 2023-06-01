@@ -1,3 +1,6 @@
+package array;
+
+import array.Leetcode_1_TwoSum_using_HashMap_OnePass;
 import com.google.common.truth.Truth;
 import org.junit.After;
 import org.junit.Before;

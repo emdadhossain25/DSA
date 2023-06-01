@@ -1,3 +1,5 @@
+package array;
+
 import java.util.HashMap;
 
 public class Leetcode_1_TwoSum_Using_HashMap {

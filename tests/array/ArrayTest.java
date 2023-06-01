@@ -1,3 +1,5 @@
+package array;
+
 import com.google.common.truth.Truth;
 import org.junit.*;
 import org.junit.rules.ExpectedException;
