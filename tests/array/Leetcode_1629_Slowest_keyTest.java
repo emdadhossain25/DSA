@@ -4,8 +4,6 @@ import com.google.common.truth.Truth;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class Leetcode_1629_Slowest_keyTest {
     Leetcode_1629_Slowest_key sut;
 
