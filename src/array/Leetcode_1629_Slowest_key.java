@@ -7,7 +7,6 @@ public class Leetcode_1629_Slowest_key {
         int previousReleaseTime =0;
         int maxReleaseTime=0;
         char c = 'a';
-
         //iterate over previous time
         for (int i =0;i<releaseTimes.length;i++){
 
