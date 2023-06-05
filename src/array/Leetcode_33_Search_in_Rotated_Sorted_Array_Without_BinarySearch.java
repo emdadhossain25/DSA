@@ -1,6 +1,6 @@
 package array;
 
-public class Leetcode_33_Search_in_Rotated_Sorted_Array {
+public class Leetcode_33_Search_in_Rotated_Sorted_Array_Without_BinarySearch {
 
     public int search(int[] nums, int target) {
         int start = 0;

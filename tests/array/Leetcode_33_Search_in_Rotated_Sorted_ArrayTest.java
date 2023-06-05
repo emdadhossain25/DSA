@@ -4,15 +4,13 @@ import com.google.common.truth.Truth;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class Leetcode_33_Search_in_Rotated_Sorted_ArrayTest {
 
-    Leetcode_33_Search_in_Rotated_Sorted_Array sut;
+    Leetcode_33_Search_in_Rotated_Sorted_Array_Without_BinarySearch sut;
 
     @Before
     public void setUp() throws Exception {
-        sut = new Leetcode_33_Search_in_Rotated_Sorted_Array();
+        sut = new Leetcode_33_Search_in_Rotated_Sorted_Array_Without_BinarySearch();
     }
 
     @Test
