@@ -90,4 +90,22 @@ public class Leetcode_33_Search_in_Rotated_Sorted_Array_Without_BinarySearchTest
                 result
         );
     }
+
+    @Test
+    public void search9() {
+        int[] numberArray = {800, 1, 2, 3, 4, 5, 6, 700, 701, 702, 703, 704,
+                705, 706, 707,
+                708,
+                709,
+                710,
+                711,
+                712,
+                713,
+                714, 715, 716, 717, 718, 719};
+        int target = 6;
+        int result = 6;
+        Truth.assertThat(sut.search(numberArray, target)).isEqualTo(
+                result
+        );
+    }
 }
