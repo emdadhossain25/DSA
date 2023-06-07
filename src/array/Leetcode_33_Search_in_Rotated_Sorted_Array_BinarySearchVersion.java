@@ -1,36 +1,30 @@
 package array;
 
 public class Leetcode_33_Search_in_Rotated_Sorted_Array_BinarySearchVersion {
+    int search(int nums[], int target) {
 
+        int n = nums.length;
+        int lo = 0;
+        int hi = n - 1;
+        while (lo < hi) {
+            int mid =  (hi +lo) / 2;
+            if (nums[mid]>nums[hi]) lo=mid+1;
+            else hi = mid;
+        }
+        int rot = lo;
+        lo = 0;
+        hi = n - 1;
+        for (; lo <= hi; ) {
 
-    public int search(int[] numberArray, int target) {
-        int start = 0;
-        int end = numberArray.length - 1;
-
-        for (; start <= end; ) {
-            int mid = (end + start) / 2;
-            System.out.println(mid);
-            if (numberArray[mid] == target) return mid;
-            if (numberArray[start] == target) return start;
-            if (numberArray[end] == target) return end;
-            else {
-                if (numberArray[start] > numberArray[end]) {
-                    start++;
-                } else if (numberArray[end] < numberArray[start]) {
-                    end--;
-                } else {
-                    if (numberArray[mid] < target) {
-                        start = mid + 1;
-                    } else {
-                        end = mid - 1;
-                    }
-                }
-
-
-            }
+            int mid = (hi + lo) / 2;
+            int realMid = (rot + mid) % n;
+            if (nums[realMid] == target) return realMid;
+            else if (nums[realMid] < target) lo = mid + 1;
+            else hi = mid - 1;
 
         }
 
         return -1;
+
     }
-}
+};
