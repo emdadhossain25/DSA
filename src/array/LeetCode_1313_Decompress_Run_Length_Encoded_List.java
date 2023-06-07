@@ -6,6 +6,7 @@ public class LeetCode_1313_Decompress_Run_Length_Encoded_List {
 
     public int[] decompressRLElist(int[] nums) {
         int[] result = new int[0];
+
         int i = 0;
         int count = -1;
         int previousLength = 0;
