@@ -1,4 +1,4 @@
-package array;
+package binary_search;
 
 import com.google.common.truth.Truth;
 import org.junit.Before;
